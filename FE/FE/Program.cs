@@ -6,10 +6,9 @@ namespace FE
     {
         static void Main(string[] args)
         {
-            int[] array1 = new int[] { 1, 2, 3 };
-            int[] array2 = new int[] { 6, 7, 8 };
-            int[] arrayMixed = Mix(array1, array2);
-            foreach(int i in arrayMixed)
+            int[] array1 = new int[] { 1, 2, 3, };
+            int[] array2 = new int[] { 6, 7, 8, };
+            foreach(int i in Mix(array1, array2))
             {
                 Console.WriteLine(i);
             }
