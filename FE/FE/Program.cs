@@ -20,13 +20,13 @@ namespace FE
         {
             int arrayLength = 2 * array1.Length;
             int[] mixedArray = new int[arrayLength];
-            int k = -1;
+            int k = 0;
             for (int i = 0; i < array1.Length; i++)
             {
-                k++;
                 mixedArray[k] = array1[i];
                 k++;
                 mixedArray[k] = array2[i];
+                k++;
             }            
             return mixedArray;
         }
