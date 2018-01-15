@@ -23,10 +23,8 @@ namespace FE
             int k = 0;
             for (int i = 0; i < array1.Length; i++)
             {
-                mixedArray[k] = array1[i];
-                k++;
-                mixedArray[k] = array2[i];
-                k++;
+                mixedArray[k++] = array1[i];
+                mixedArray[k++] = array2[i];
             }            
             return mixedArray;
         }
